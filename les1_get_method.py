@@ -23,19 +23,3 @@ submit_button = driver.find_element_by_css_selector('.submit-submission')
 time.sleep(5)
 
 driver.quit()  # закрыли браузер
-
-class Dog(models.Model):
-    """Model definition for Dog."""
-
-    # TODO: Define fields here
-
-    class Meta:
-        """Meta definition for Dog."""
-
-        verbose_name = 'Dog'
-        verbose_name_plural = 'Dogs'
-
-    def __str__(self):
-        """Unicode representation of Dog."""
-        pass
-
